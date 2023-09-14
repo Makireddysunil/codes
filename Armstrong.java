@@ -8,7 +8,7 @@ public class Armstrong {
 	public static void main(String[] args) {
 		int  originalNumber,number, result=0,digit=0, remainder = 0;
 				Scanner sc=new Scanner(System.in);
-				System.out.println("enter the number:");
+				System.out.println("Enter the number:");
 				number=sc.nextInt();
 				originalNumber=number;
 				while(originalNumber!=0) {
@@ -24,9 +24,9 @@ public class Armstrong {
 					originalNumber/=10;
 				}
 				if(result==number)
-					System.out.println(number+"is an Armstrong number.");
+					System.out.println(number+" is an Armstrong number.");
 				else
-					System.out.println(number+"is not an Armstring number.");
+					System.out.println(number+" is not an Armstring number.");
 	}
 				
 
